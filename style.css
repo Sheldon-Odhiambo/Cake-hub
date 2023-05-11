@@ -298,3 +298,34 @@
     color: white;
 }
 /* end of product cards */
+
+/* gallary  */
+
+#gallary{
+    margin-top: 50px;
+
+}
+#gallary h1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    color: rgb(226, 103, 72);
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 2px solid rgb(105, 13, 50);
+}
+#gallary .card{
+    box-shadow: 3px 3px 3px black;
+
+}
+#gallary .overlay{
+    opacity: 0;
+    width: 100%;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+#gallary .card:hover .overlay{
+    opacity: 5;
+    margin-top: 20%;
+    transition: 0.5s ease;
+}
+/* end of gallary */
