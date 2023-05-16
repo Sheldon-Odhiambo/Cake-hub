@@ -361,4 +361,59 @@
     border: none;
     cursor: pointer;
 }
+@media screen and (max-width:1000px) {
+    #about p{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:760px) {
+    #about p{
+        font-size: 20px;
+    }
+}
 /* end of about us  */
+
+/* Our contact  */
+
+#contact{
+    margin-top: 100px;
+}
+#contact h1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    color:  rgb(226, 103, 72);
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 2px solid rgba(234, 150, 150);
+}
+#contact input{
+    background-color: rgba(234, 150, 150);
+}
+#contact input::placeholder{
+    color: white;
+}
+#contact textarea{
+    background-color: rgba(234, 150, 150);
+}
+#contact textarea::placeholder{
+    color: white;
+}
+#messagebtn{
+    text-align: center;
+}
+#messagebtn button{
+    width: 200px;
+    height: 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#messagebtn button:hover{
+    background-color: rgba(234, 150, 150);
+}
+
+/* end of our contact */
