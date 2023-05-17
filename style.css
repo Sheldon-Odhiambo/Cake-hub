@@ -5,7 +5,7 @@
     font-family: 'Uchen', serif;
 }
 .all-content{
-    background-color: #2e1700;
+    background-color: #ac7c6D;
 }
 /* navbar */
 .navbar{
@@ -181,17 +181,17 @@
     margin-top: 60px;
 }
 .banner .content h3{
-    color: #c9594c;
+    color: #c35e53;
     font-weight: bold;
 }
 .banner .content h2{
     font-size: 50px;
-    color: rgb(221, 105, 79);
+    color:  rgba(161,109,14,1);
     font-weight: bold;
     text-shadow: 1px 1px 1px black;
 }
 .banner .content p{
-    color: rgb(224, 57, 19);
+    color:  rgba(161,109,14,1);
 }
 #btnorder button{
     width: 150px;
@@ -222,12 +222,12 @@
     text-align: center;
     font-weight: bold;
     margin-top: 50px;
-    color: rgb(226, 103, 72);
+    color:  rgba(161,109,14,1);
     text-shadow: 1px 1px 1px black;
     border-bottom: 2px solid rgb(105, 13, 50);
  }
  #product-cards .card{
-    background-color: rgb(234, 150, 150);
+    background-color:  rgba(161,109,14,1);
     box-shadow: 0 0 3px black;
     border-radius: 5px;
     cursor: pointer;
@@ -309,7 +309,7 @@
     text-align: center;
     font-weight: bold;
     margin-top: 50px;
-    color: rgb(226, 103, 72);
+    color:  rgba(161,109,14,1);
     text-shadow: 1px 1px 1px black;
     border-bottom: 2px solid rgb(105, 13, 50);
 }
@@ -338,7 +338,7 @@
     text-align: center;
     font-weight: bold;
     margin-top: 50px;
-    color: rgb(226, 103, 72);
+    color:  rgba(161,109,14,1);
     text-shadow: 1px 1px 1px black;
     border-bottom: 2px solid rgba(105,13, 50);
 }
@@ -348,7 +348,7 @@
 }
 
 #about p{
-    color: rgba(234, 150, 150);
+    color:  rgba(161,109,14,1);
     text-shadow: 1px 1px 1px black;
     font-weight: bold;
 }
@@ -382,18 +382,18 @@
     text-align: center;
     font-weight: bold;
     margin-top: 50px;
-    color:  rgb(226, 103, 72);
+    color:  rgba(161,109,14,1);
     text-shadow: 1px 1px 1px black;
-    border-bottom: 2px solid rgba(234, 150, 150);
+    border-bottom: 2px solid rgba(161,109,14,1);
 }
 #contact input{
-    background-color: rgba(234, 150, 150);
+    background-color: rgba(161,109,14,1);
 }
 #contact input::placeholder{
     color: white;
 }
 #contact textarea{
-    background-color: rgba(234, 150, 150);
+    background-color: rgba(161,109,14,1);
 }
 #contact textarea::placeholder{
     color: white;
@@ -413,7 +413,43 @@
     cursor: pointer;
 }
 #messagebtn button:hover{
-    background-color: rgba(234, 150, 150);
+    background-color: rgba(161,109,14,1);
 }
 
 /* end of our contact */
+
+/* footer */
+#footer{
+    width: 100%;    
+    background-color: grey;
+    box-shadow: 0px 0px 5px black;
+    margin-top: 100px;
+}
+#footer h1{
+    color: white;
+    padding-top: 30px;
+}
+#footer p{
+    color: white;
+}
+.icons i{
+    background-color: white;
+    color: grey;
+    border-radius: 50px;
+    padding: 6px;
+    font-size: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.icons i:hover{
+    background-color: rgba(161,109,14,1);;
+    color: white;
+}
+.copyright{
+    color: white;
+    margin-top: 20px;
+}
+.credite{
+    color: white;
+}
+/* footer */
