@@ -20,7 +20,7 @@ Every celebration merits a delectable cake, in our opinion at A's Hub, to make i
 <p>Run by clicking the index.html file</p>
 
 ## Deployment (Link to the site on GitHub Pages)
-This page is visible via this link: https://sheldon-odhiambo.github.io/real-estate/
+This page is visible via this link: https://sheldon-odhiambo.github.io/Cake-hub/
 
 ### Requirements
 
